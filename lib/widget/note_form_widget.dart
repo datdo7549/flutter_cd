@@ -36,7 +36,7 @@ class NoteFormWidget extends StatelessWidget {
               buildTitle(),
               SizedBox(height: 8),
               buildDescription(),
-              SizedBox(height: 16),
+              SizedBox(height: 25),
             ],
           ),
         ),
@@ -61,7 +61,7 @@ class NoteFormWidget extends StatelessWidget {
       );
 
   Widget buildDescription() => TextFormField(
-        maxLines: 5,
+        maxLines: 8,
         initialValue: description,
         style: TextStyle(color: Colors.white60, fontSize: 18),
         decoration: InputDecoration(

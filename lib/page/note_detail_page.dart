@@ -64,7 +64,8 @@ class _NoteDetailPageState extends State<NoteDetailPage> {
                     Text(
                       note.description,
                       style: TextStyle(color: Colors.white70, fontSize: 18),
-                    )
+                    ),
+                    Image.asset('assets/images/spider_man.jpg'),
                   ],
                 ),
               ),
